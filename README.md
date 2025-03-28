@@ -1,6 +1,6 @@
 # APW Math Assist v2
 
-This project is a Python application that integrates mathematical problem-solving with serial communication. It uses the OpenAI API to generate reasoning steps and suggestions for math problems. Additionally, it reads data from a serial port to update the user's psychological state.
+This project is a proof of concept for biosignal-based adaptive and empathetic AI. It integrates mathematical problem-solving with serial communication to adaptively respond to the user's psychophysical state. By leveraging biosignals captured from the "Sleep Buster" device, the application aims to provide personalized and empathetic support in solving math problems.
 
 ## Prerequisites
 
@@ -35,14 +35,6 @@ Once the virtual environment is activated, install the necessary libraries using
 
 ```bash
 pip install -r requirements.txt
-```
-
-If you don't have a `requirements.txt` file, you can install the libraries manually:
-
-```bash
-pip install tkinter
-pip install pyserial
-pip install openai
 ```
 
 ### Step 4: Run the Application
